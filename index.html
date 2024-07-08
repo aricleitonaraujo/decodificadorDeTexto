@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <title>Decodificador</title>
+</head>
+
+<body>
+    <main class="principal">
+        <section class="conteudo">
+            <img src="img/logo.png" alt="logo-marca" class="logo">
+            <input type="text"class="estilo__input" placeholder="Digite seu texto">
+            <div class="msg"><img src="img/image.png" alt="texto  de criteiro" class="mensage__orientacao"></div>
+            <div class="botoes">
+                <button class="btnCriptografar" onclick="criptografar()">Criptografar</button>
+                <button class="btnDecriptografar" onclick="decriptografar()">Decriptografar</button>
+            </div>
+        </section>
+            <div class="exibir__resultado">
+                <p id="mostrarResultado" class="mostrarTexto"></p>
+                <img src="img/img1.png" alt="aqui tem uma imagem" id="ocultarImgBoneca">
+                <h2><strong>Nenhuma mensagem encontrada</strong></h2>
+                <p id="ocutarTexto">Digite um texto para criptografar ou descriptografar</p>
+                <button class="butonCopiar" onclick="copiar()" id="btnCopiar">Copiar</button>
+            </div>
+
+    </main>
+
+</body>
+
+</html>

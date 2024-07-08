@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e6f1f5;
+}
+
+.principal {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 30px;
+    margin-right: 700px;
+    margin-top: 15px;
+}
+
+.estilo__input {
+    margin-top: 50px;
+    margin-right: 13em;
+    background-color: #e6f1f5;
+    padding: 15px;
+    border: none;
+    width: 30em;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: #193473;
+    font-size: 30px;
+}
+
+.btnCriptografar {
+    background-color: #193473;
+    color: white;
+    padding: 5px;
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.btnDecriptografar {
+    background-color: #d9eaef;
+    padding: 5px;
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #193473;
+    margin-left: 15px;
+}
+.mensage__orientacao{
+    width: 230px;
+    height: 15px;
+}
+.msg{
+    display: flex;
+    width: 400px;
+    align-items: center;
+    margin-top: 450px;
+    margin-right: 190px;
+}
+.exibir__resultado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 35%;
+    height: 90%;
+    margin-right: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+.mostrarTexto{
+    /* display: none; */
+    font-size: 20px;
+    margin-bottom: 100px;
+    align-items: center;
+    text-align: center;
+    
+}
+.butonCopiar{
+    background-color: #d5d7d8;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 460px;
+    font-size: 18px;
+    color: #193473;
+    margin-left: 15px;
+    position: fixed;
+    display: none;
+    
+    
+}
